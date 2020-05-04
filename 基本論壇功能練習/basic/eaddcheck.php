@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>logincheck.php</title>
+</head>
+<body>
+<?php
+session_start();  // 啟用交談期
+// 檢查Session變數是否存在, 表示是否已成功登入
+
+echo "新增成功!<br/>";
+
+?>
+<p>[<a href="index.php">回主畫面</a>]</p>
+</body>
+</html>
